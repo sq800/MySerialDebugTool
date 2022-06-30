@@ -73,7 +73,7 @@ namespace My串口调试助手
         {
             if(SerialCom.comData.Count > 0)
             {
-                string str = SerialCom.comData[0] + " ";
+                string str = SerialCom.comData[0] + "\n";
                 revData.Text += str;
                 //移除索引0处的数据，后面的数据会重新排序
                 SerialCom.comData.RemoveAt(0);
