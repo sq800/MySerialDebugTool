@@ -168,7 +168,6 @@ namespace My串口调试助手
 
             // 创建文件名
             string fileName = "log.txt";
-;
             // 再次使用 Combine 方法把文件名添加到路径
             pathString = System.IO.Path.Combine(pathString, fileName);
 
